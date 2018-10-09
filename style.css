@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1em;
+}
+
+.source-card {
+    height: 500px;
+    width: 95%;
+    margin-top: 5em;
+}
+
+a {
+    color: #037E8B;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+    border-bottom: 1px solid #e2e2e2;
+    height: 50px;
+    width: 90%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    padding: 0px 20px 20px 20px;
+}
+
+.title-sub {
+    width: 40%;
+    float: left;
+    height: auto;
+    margin-left: 20px;
+}
+
+.percentage {
+    height: auto;
+    width: 10%;
+    float: left;
+    padding-right: 15px;
+}
+
+h4 {
+    font-size: 2em;
+    font-weight: 700;
+    color: #037E8B;
+    margin: 0;
+}
+
+h5 {
+    margin: 0;
+    height: 20px;
+    width: 200px;
+    font-size: 1.2em;
+}
+
+p {
+    font-size: 1em;
+    margin: 5px 0;
+    color: #9f9f9f;
+}
+
+.saran-wrap {
+    height: 100%;
+}
+
+.send-campaign-all {
+    color: #037E8B;
+    font-size: 1em;
+    display: none;
+    width: auto;
+    text-align: right;
+    height: 45px;
+    float: right;
+}
+
+.saran-wrap:hover .send-campaign-all {
+    display: block;
+}
+
+.send-campaign-all img {
+    height: 18px;
+    width: auto;
+    margin: 12px 10px -5px 15px;
+}
